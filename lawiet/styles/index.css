@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;;
+}
+
+/********************************
+        Header Section Start 
+*********************************/
+.header-section {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: 1110px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-weight: bold;
+    letter-spacing: 1.5px ;
+}
+.header-logo img {
+    width: 36px;
+    height: 36px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 56px;
+}
+.menu ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 191.667% */
+    letter-spacing: 1.5px;
+    color: #2D2F30;
+}
+/********************************
+        Header Section End 
+*********************************/
+
+/********************************
+        HERO Section Start 
+*********************************/
+.hero-section {
+    background: #F9F8F9;
+}
+.hero {
+    align-items: center;
+    height: 924px;
+    background-image: url('../images/hero-img.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 90px;
+    color: #094B72  ;
+
+}
+.hero p {
+    font-size: 24px;
+    line-height: 158%;
+    font-family: 'Plus Jakarta Sans', sans-serif;;
+}
+.hero button {
+    width: 190px;
+    height: 80px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #094B72;
+    color: #fff;
+}
+.companies {
+    margin-top: 115px;
+}
+.compaines  p {
+
+}
+.compaines-logo {
+    display: flex;
+    margin-top: 10px    ;
+    gap: 80px;
+}
+.compaines-logo2 {
+    display: flex;
+    margin-top: 10px    ;
+    gap: 50px;
+}
+
+/********************************
+        Hero Section End 
+*********************************/
+
+/********************************
+        Why Section Start 
+*********************************/
+.why {
+    font-family: 'Playfair Display', serif;
+    height: 786px;
+    background: #F2FCFF;
+}
+.why-feature {
+    width: 420px;
+}
+.why-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.our-feature {
+
+}
