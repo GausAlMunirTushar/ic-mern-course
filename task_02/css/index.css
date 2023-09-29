@@ -6,6 +6,11 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'shadin';
+    src: url('../fonts/LiShadhinataUnicode.woff2') format('woff2'),
+        url('../fonts/LiShadhinataUnicode.woff') format('woff');
+}
 
 
 
@@ -15,5 +20,6 @@
     box-sizing: border-box;
 }
 h1 {
-    font-family: 'sabbir';
+    font-family: 'shadin';
+    font-weight: 100;
 }
