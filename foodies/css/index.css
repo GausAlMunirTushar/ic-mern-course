@@ -1,0 +1,197 @@
+/* Define CSS variables */
+:root {
+    --main-font: 'Inter', sans-serif;
+    --container-width: 1170px;
+    --header-title-color: #06C167;
+    --main-text-color: #1D1D1F;
+}
+.primary-button {
+    background: var(--header-title-color);
+    text-decoration: none;
+    color: #fff;
+    padding: 29px 60px;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply CSS variables */
+body {
+    font-family: var(--main-font);
+}
+.header-section {
+    background-color: #F3FCF7;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header {
+    width: var(--container-width);
+    height: 41px ;
+    /* background-color: #f0f0f0; Example background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.header__title {
+    color: var(--header-title-color);
+    font-size: 2rem;
+    font-weight: 500;
+}
+.header__menu {
+    display: flex;
+    gap: 37px;
+    list-style: none;
+}
+.header__menu-item {
+
+}
+.header__menu-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--main-text-color);
+}
+.header__menu-item.active .header__menu-link{
+    color: var(--header-title-color); 
+}
+
+
+/* Hero Sectio Start */
+.hero-section {
+    width: 100%;
+    background-color: #F3FCF7;
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    width: var(--container-width);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__details {
+    
+}
+.hero__cta {
+    margin-top: 30px;
+}
+.hero__title {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 11px;
+}
+.hero__description {
+    color: var(--main-text-color);
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.hero__review {
+
+}
+.hero__review-image {
+    width: 468px;
+    height: 634px;
+}
+
+/* Hero Section End */
+
+/* Features Section Start*/
+.features__section {
+    margin-top: 114px;
+    display: flex;
+    justify-content: center;
+}
+.feature {
+    width: var(--container-width);
+
+}
+.feature__divider {
+   border-top: 1.5px solid #ccc6c6;
+}
+.feature__items {
+    height: 185px; 
+    display: flex;
+    justify-content: space-between;
+}
+.feature__item {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.feature__icon {
+   border: 10px;
+}
+
+/* Features Section End */
+
+/* Our Benefits Section Start */
+.benefit__section {
+    margin-top: 133px;
+    display: flex;
+    justify-content: center;
+}
+.benefit {
+    width: var(--container-width);
+    height: 608px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.benefit__poster {
+    width: 540px;
+    height: 608px;
+    background-color: #f3fafb;
+    text-align: center;
+}
+.benefit__image {
+    width: 445px;
+    height: 513px;
+}
+.benefit__label {
+    font-size: 15px;
+    font-weight: 500;
+}
+.benefit__title {
+    color: #1d1d1f;
+    font-size: 60px;
+    font-weight: 500;
+}
+.benefit__list{
+    background: url('images/icons/check-icon.png');
+}
+
+/* Benefits Section End */
+
+/* Our Star Section Start */
+.ourstar__section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ourstar {
+    width: var(--container-width);
+    display: flex;
+}
+.ourstar__info {
+
+}
+.ourstar__image {
+    width: 540px;
+    height: 608px;
+    background-color: #f3fafb;
+    text-align: center;
+}
+.ourstar__img {
+    width: 445px;
+    height: 513px;
+}
