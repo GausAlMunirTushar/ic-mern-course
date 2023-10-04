@@ -14,6 +14,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    border: none;
 }
 /* Reset default styles */
 * {
@@ -74,15 +75,16 @@ body {
 }
 .hero {
     width: var(--container-width);
+    height: 560px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .hero__details {
-    
+    margin-bottom: 30px;
 }
 .hero__cta {
-    margin-top: 30px;
+
 }
 .hero__title {
     font-size: 5rem;
@@ -102,12 +104,43 @@ body {
     width: 468px;
     height: 634px;
 }
+.rating {
+    width: 240px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: relative;
+    top: 345px;
+    left: -95px;
+}
+.rating .fa-star {
+    color: #06C167;
+}
+.quality {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 230px;
+    background-color: #fff;
+    padding: 2px 5px;
+    border-radius: 25px;
+    position: relative;
+    top: 240px;
+    right: -285px;
+}
+.companies {
+    display: flex;
+    gap: 60px;
+    position: relative;
+    top: 200px;
+    bottom: 100px;
+}
 
 /* Hero Section End */
 
 /* Features Section Start*/
 .features__section {
-    margin-top: 114px;
+    margin-top: 214px;
     display: flex;
     justify-content: center;
 }
@@ -174,6 +207,7 @@ body {
 
 /* Our Star Section Start */
 .ourstar__section {
+    margin-top: 183px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -183,15 +217,202 @@ body {
     display: flex;
 }
 .ourstar__info {
-
+    
+}
+.ourstar__label {
+    font-size: 15px;
+    font-weight: 500;
+}
+.ourstar__title {
+    font-size: 60px;
+    font-weight: 500;
+    color: #1d1d1f;
 }
 .ourstar__image {
     width: 540px;
     height: 608px;
     background-color: #f3fafb;
-    text-align: center;
+    text-align: right;
 }
 .ourstar__img {
     width: 445px;
     height: 513px;
+}
+.ourstar__details {
+    display: flex;
+    gap: 83px
+}
+.ourstar__item {
+    
+}
+.ourstar__number {
+   font-size: 40px;
+   font-weight: 600;
+   color: var(--header-title-color);
+   margin-bottom: 1rem;
+}
+
+/* Our Features Section Start */
+.ourfeatures__section {
+    display: flex;
+    justify-content: center;
+
+}
+.ourfeature {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ourfeature__label {
+    text-align: center;
+}
+.ourfeature__title{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+}
+.ourfeature__items {
+    width: 100%;
+    width: var(--container-width);
+    margin: 10px auto
+}
+.ourfeature__items-top {
+    display: flex;
+
+}
+.ourfeature__items-bottom {
+    display: flex;
+    
+}
+.ourfeature__item {
+    width: 292px;
+    height: 292px;
+    border: 1px solid #06C167;
+}
+.ourfeature__item-image {
+    width: 100%;
+}
+
+/* Our Prodcut Section Start */
+.product__section {
+    width: 100%;
+}
+.products {
+    width: var(--container-width);
+    margin: 190px auto;
+
+}
+.products__label {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.products__title {
+    font-size: 60px;
+    margin-bottom: 63px;
+}
+.product__content{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+.product__item {
+    width: 270px;
+    height: 445px;
+    border: 2px solid #cccccc;
+    text-align: center;
+}
+.product__item:hover {
+    border: 2px solid #06C167;
+}
+.product__image {
+    width: 190px;
+    height: 190px;
+    margin: 35px 35px 5px 35px;
+}
+.product__star {
+    color: #06C167;
+}
+.product__title {
+    font-size: 20px;
+    margin: 25px 0px;
+}
+.product__price {
+    color: #06C167;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.product__price del {
+    font-size: 20px;
+    font-weight: 500;
+    color: #96969a;
+}
+.product__price ins {
+    color: #06C167;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.buy__now {
+    border: 2px solid #06C167;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #06C167;
+}
+.fa-arrow-right {
+    margin-left: 30px;
+}
+
+/* Our Product Section End */
+
+/* Veggie Food Section Start */
+.veggie__section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.veggie {
+    margin-top: 190px;
+    width: var(--container-width);
+    height: 460px;
+    background-image: url('../images/vaggie-bg.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px
+}
+.veggie__title{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+}
+/* Veggie Section End */
+
+/* Footer Section Start */
+.footer {
+    width: var(--container-width);
+    display: flex;
+    margin: 60px auto
+}
+.footer__block--info {
+    width: 284px;
+}
+.footer__content {
+    display: flex;
+    gap: 150px ;
+    border: 1px solid red;
+}
+.footer__block--menus{
+    width: 140px;
+    display: flex;
+    gap: 90px;
+}
+.footer__block--subscribe {
+    width: 338px;
+    margin-left: 90px;
 }
