@@ -9,7 +9,8 @@
     background: var(--header-title-color);
     text-decoration: none;
     color: #fff;
-    padding: 29px 60px;
+    width: 200px;
+    padding: 20px 20px;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -82,9 +83,7 @@ body {
 .hero__details {
     margin-bottom: 30px;
 }
-.hero__cta {
 
-}
 .hero__title {
     font-size: 5rem;
     font-weight: 600;
@@ -96,9 +95,7 @@ body {
     font-weight: 400;
 
 }
-.hero__review {
 
-}
 .hero__review-image {
     width: 468px;
     height: 634px;
@@ -258,9 +255,7 @@ body {
     gap: 83px;
     margin: 40px 0px;
 }
-.ourstar__item {
-    
-}
+
 .ourstar__number {
    font-size: 40px;
    font-weight: 600;
@@ -459,9 +454,7 @@ body {
     gap: 20px;
     align-items: center;
 }
-.footer_menu {
 
-}
 .footer__menu-list {
     width: 140px;
     list-style: none;
