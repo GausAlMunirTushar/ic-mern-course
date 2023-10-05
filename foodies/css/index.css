@@ -231,11 +231,12 @@ body {
     display: flex;
 }
 .ourstar__info {
-    
+   margin-top: 40px;
 }
 .ourstar__label {
     font-size: 15px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 .ourstar__title {
     font-size: 60px;
@@ -254,7 +255,8 @@ body {
 }
 .ourstar__details {
     display: flex;
-    gap: 83px
+    gap: 83px;
+    margin: 40px 0px;
 }
 .ourstar__item {
     
@@ -275,7 +277,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 190px;
+    margin-top: 100px;
 }
 .ourfeature__label {
     text-align: center;
@@ -333,7 +335,7 @@ body {
 }
 .products {
     width: var(--container-width);
-    margin: 190px auto;
+    margin: 100px auto;
 
 }
 .products__label {
@@ -396,7 +398,7 @@ body {
     color: #06C167;
 }
 .fa-arrow-right {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 /* Our Product Section End */
@@ -408,7 +410,7 @@ body {
     justify-content: center;
 }
 .veggie {
-    margin-top: 190px;
+    margin-top: 80px;
     width: var(--container-width);
     height: 460px;
     background-image: url('../images/vaggie-bg.png');
@@ -431,7 +433,7 @@ body {
 .footer {
     width: var(--container-width);
     display: flex;
-    margin: 60px auto
+    margin: 80px auto
 }
 .footer__block--info {
     width: 284px;
@@ -439,14 +441,74 @@ body {
 .footer__content {
     display: flex;
     gap: 150px ;
-    border: 1px solid red;
+}
+.footer__title {
+    color: var(--header-title-color);
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+.footer__description {
+    font-size: 16px;
+    color: #1d1d1f;
+    margin-bottom: 37px;
+}
+.social__links {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer_menu {
+
+}
+.footer__menu-list {
+    width: 140px;
+    list-style: none;
+
+}
+.footer__menu-item {
+    padding: 5px 0px;
+}
+.footer__menu-title ,
+.footer__subscribe-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #1d1d1f;
+    margin-bottom: 30px;
+}
+.footer__menu-link {
+    text-decoration: none;
+    color: #1d1d1f;
+    font-size: 1rem;
+    font-weight: 400;
+    
 }
 .footer__block--menus{
-    width: 140px;
+    width: 160px;
     display: flex;
-    gap: 90px;
+    gap: 80px;
 }
 .footer__block--subscribe {
     width: 338px;
     margin-left: 90px;
+}
+.footer__subscribe-email {
+    width: 205px;
+    padding: 10px 20px;
+    border: none;
+    background: #F0F1EC
+}
+.footer__subscribe-button {
+    border: none;
+    background: var(--header-title-color);
+    color: #fff;
+    padding: 10px 20px;
+}
+.footer__bottom {
+    display: flex;
+}
+.footer__copyright {
+    text-align: center;
+    margin-bottom: 10px;
 }
