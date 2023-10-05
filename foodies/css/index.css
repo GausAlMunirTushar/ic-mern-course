@@ -53,13 +53,12 @@ body {
     gap: 37px;
     list-style: none;
 }
-.header__menu-item {
-
-}
 .header__menu-link {
     text-decoration: none;
     font-size: 1rem;
     color: var(--main-text-color);
+    cursor: pointer;
+    
 }
 .header__menu-item.active .header__menu-link{
     color: var(--header-title-color); 
