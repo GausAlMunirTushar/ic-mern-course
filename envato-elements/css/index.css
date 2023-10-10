@@ -120,7 +120,8 @@ body {
 .navbar__item {
     display: flex;
     height: 57px;
-    align-items: center
+    align-items: center;
+    position: relative;
 }
 .navbar__item:hover {
     border-bottom: 3px solid #503DE2;
@@ -132,10 +133,36 @@ body {
     color: var(--header-font-color);
 }
 .sub__menu {
+    width: 200px;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    list-style: none;
     display: none;
+    background: #fff;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
 }
-.sub__menu:hover {
+.sub__menu-item  {
+    padding: 10px;
+}
+.sub__menu-item a {
+    padding: 10px;
+}
+.sub__menu-item a:hover {
+    background: #ECECEE;
+    border-radius: 10px;
+}
+.sub__menu-item a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+.navbar__item:hover .sub__menu {
     display: block;
+}
+.sub__nav {
+    display: flex;
 }
 /* Header Section End */
 
@@ -204,4 +231,57 @@ body {
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
+}
+
+/* Creator Section Start */
+.creator__section {
+
+}
+.creator {
+    width: var(--container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 20px;
+}
+.creator__title {
+    text-align: center;
+    font-family: var(--heading-font);
+    font-size: 30px;
+    color: var(--header-font-color);
+    font-weight: 800;
+}
+.creator__items {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.creator__item {
+    padding: 10px 20px;
+}
+.creator__item-img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+.creator__item-title {
+    font-family: var(--heading-font);
+    color: var(--header-font-color);
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.creator__item-description {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 200;
+    color: var(--text-color);
+}
+/* Creator Section End */
+
+/* Pricing Section Start */
+.pricing__section {
+    background: #f9f9fb;
 }
