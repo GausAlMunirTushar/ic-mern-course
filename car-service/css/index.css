@@ -86,12 +86,15 @@ body {
     gap: 20px;
     font-size: 20px;
 }
+.header__button i {
+    margin: 0px 10px; /* Add some space between the text and the icon */
+}
 .header__button {
-    display: inline-flex;
+    display: flex;
+    align-items: center; 
     height: 61px;
     padding: 24px 40px 24px 48px;
     justify-content: center;
-    align-items: center;
     gap: 4px;
     border-radius: 16px;
     border: none;
@@ -249,6 +252,7 @@ body {
 .block__car-details .car__title {
     font-size: 18px;
     font-weight: 600;
+    margin: 15px 0px;
 }
 .car__show {
     display: flex;
@@ -291,4 +295,56 @@ body {
     background: var(--primary-color);
     width: var(--container);
     border-radius: 32px;
+    display: flex;
+    padding: 40px 60px;
+    margin-bottom: 30px;
+}
+.footer__content {
+    flex: 1;
+}
+.footer__content h1 {
+    font-size: 56px;
+    margin: 20px 0px;
+}
+.footer__content p {
+    font-size: 24px;
+}
+.footer__details {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.single-details{
+    width: 260px;
+    margin: 40px 10px;
+}
+.single-details h4 {
+    margin: 10px 0px;
+}
+.footer__button-box {
+    margin-top: 100px;
+}
+.footer__button {
+    display: inline-flex;
+    height: 61px;
+    padding: 24px 40px 24px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 16px;
+    border: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.foooter__button-primary {
+    background: #fff;
+    color: #000;
+}
+.footer__button-tranparent {
+    background: transparent;
+    border: 2px solid #ffffff;
 }
