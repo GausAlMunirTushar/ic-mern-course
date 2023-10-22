@@ -305,6 +305,7 @@ body {
     width: 1110px;
     display: flex;
     justify-content: space-between;
+    padding: 40px 0px;
 }
 .footer-logo {
     display: flex;
@@ -342,10 +343,10 @@ div ul li a {
     background: #05546D;
 }
 .sub-footer {
-    align-items: center;
     width: 1110px;
-    padding: 15px;
+    height: 70px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     color: #fff;
 }
