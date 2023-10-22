@@ -63,13 +63,13 @@ body {
 *********************************/
 .hero-section {
     background: #F9F8F9;
+    display: flex;
+    justify-content: center;
 }
 .hero {
+    display: flex;
     align-items: center;
     height: 924px;
-    background-image: url('../images/hero-img.png');
-    background-repeat: no-repeat;
-    background-position: center right;
 }
 .hero h1 {
     font-family: 'Playfair Display', serif;
@@ -80,7 +80,8 @@ body {
 .hero p {
     font-size: 24px;
     line-height: 158%;
-    font-family: 'Plus Jakarta Sans', sans-serif;;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 30px 0px;
 }
 .hero button {
     width: 190px;
@@ -92,11 +93,12 @@ body {
     background: #094B72;
     color: #fff;
 }
+.hero-img img{
+    height: 925px;
+    margin-left: -100px;
+}
 .companies {
     margin-top: 115px;
-}
-.compaines  p {
-
 }
 .compaines-logo {
     display: flex;
@@ -116,18 +118,238 @@ body {
 /********************************
         Why Section Start 
 *********************************/
-.why {
-    font-family: 'Playfair Display', serif;
+.why-section {
+    display: flex;
+    justify-content: center;
     height: 786px;
     background: #F2FCFF;
 }
+.why {
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    width: 1120px;
+    align-items: center;
+    gap: 50px;
+}
 .why-feature {
-    width: 420px;
+    width: 750px;
 }
 .why-title {
     font-size: 48px;
     margin-bottom: 20px;
 }
+.why-description {
+    color: #8d8f91;
+}
 .our-feature {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.single-feature {
+    width: 240px;
+    height: 260px;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(245, 245, 245);
+}
+.single-feature h5 {
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.single-feature p {
+  color: #8d8f91;
+}
 
+/* Why Section End  */
+
+/* Achievement Section Start  */
+
+.achievement-section {
+    background-image: url('../images/acive-bg.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.achievement {
+    width: 1110px;
+    height: 355px;
+    color: #fff;
+}
+.achivement-info {
+    text-align: center;
+    margin: 50px 0px;
+}
+.achivement-info h3 {
+    font-size: 48px;
+}
+.achievement-counts {
+    margin: 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+.achievement-item {
+    width: 300px;
+    text-align: center;
+}
+.achievement-item h3 {
+    font-size: 48px;
+}
+.achievement-item p {
+    font-size: 18px;
+}
+.item-active {
+    border-left: 1px solid #adadad;
+    border-right: 1px solid #adadad;
+}
+/* Testimonal Section Start  */
+.testimonal-section {
+    background: #F4FBFF;
+    display: flex;
+    justify-content: center;
+}
+.testimonals {
+    width: 1110px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.testimonal-title {
+    font-size: 48px;
+    text-align: center;
+    color: #4b4e50;
+    margin: 20px 0px;
+}
+.testimonal {
+    display: flex;
+}
+.testimonal-item {
+    width: 540px;
+    height: 304px;
+    margin: 0px 15px;
+}
+.testimonal-review {
+    height: 232px;
+    background: #fff;
+    padding: 25px 35px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(245, 245, 245);
+}
+.testimonal-review h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.testimonal-review p {
+    color: #8d8f91;
+}
+.client-details {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 25px 0px;
+}
+ /* Testimonal Section End  */
+
+/* CTA Section Start  */
+
+.cta-section {
+    display: flex;
+    justify-content: center;
+}
+.cta {
+    width: 1110px;
+    height: 375px;
+    display: flex;
+}
+.cta-info {
+    margin: 30px 10px;
+}
+.cta-info h3 {
+    font-size: 48px;
+}
+.cta-info p {
+    font-size: 24px;
+    margin: 20px 0px;
+}
+.cta img {
+    width: 420px;
+    height: 375px;
+}
+.btn-call {
+    background: #0f6e8c;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.btn-call i {
+    margin-right: 10px;
+}
+
+/* CTA Section End  */
+
+/* Footer Section Start  */
+.footer-section {
+    background: #0F6E8C;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo {
+    display: flex;
+    margin-top: 50px;
+    height: 60px;
+    align-items: center;
+    gap: 20px;
+}
+.footer-logo h1 {
+    color: #fff;
+}
+.footer-menu {
+    display: flex;
+    gap: 80px;
+}
+.footer-menu-item {
+    margin-top: 70px;
+}
+.footer-menu-item h3 {
+    color: #fff;
+}
+div ul {
+    list-style: none;
+}
+div ul li {
+    margin: 15px 0px;
+}
+div ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.sub-footer-section {
+    display: flex;
+    justify-content: center;
+    background: #05546D;
+}
+.sub-footer {
+    align-items: center;
+    width: 1110px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.social-links {
+    display: flex;
+    gap: 20px;
 }
