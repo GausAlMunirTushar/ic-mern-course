@@ -5,6 +5,7 @@
 body {
     background-image: url('./road.jpg');
     font-family: 'Poppins', sans-serif;
+    background-size: cover;
 }
 .container {
     display: flex;
@@ -34,7 +35,7 @@ input {
     padding: 15px 20px;
     margin: 10px 0;
     background: rgba(255, 255, 255, 0.07);
-    border-radius: 16px;
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.1px);
     -webkit-backdrop-filter: blur(3.1px);
@@ -43,9 +44,11 @@ input {
 }
 input:focus {
     outline: none;
+    color: #fff;
 }
 input::placeholder {
     color: #fff;
+    font-weight: bold;
 }
 input[type="submit"] {
     font-size: 18px;
@@ -73,4 +76,8 @@ input[type="submit"] {
     box-shadow: 0 4px 30px rgba(62, 59, 59, 0.1);
     backdrop-filter: blur(3.1px);
     -webkit-backdrop-filter: blur(3.1px);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
 }
