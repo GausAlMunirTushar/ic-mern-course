@@ -9,7 +9,6 @@ body {
 .navbar {
     margin: 20px;
     background: orangered;
-    border-radius: 10px;
 }
 .navbar-items {
     display: flex;
@@ -33,8 +32,8 @@ body {
     background: orangered;
     position: absolute;
     list-style: none;
-    margin-top: 15px;
-    width: 120px;
+    top: 80px;
+    width: 150px;
 }
 .navbar-item-sub {
     margin-bottom: 20px;
@@ -60,8 +59,9 @@ body {
     display: none;
     position: absolute;
     list-style: none;
+    width: 150px;
     top: 76px;
-    left: 120px;
+    left: 150px;
     background: orangered;
 }
 .dropdown-menu-item:hover .dropdown-sub-menu {
