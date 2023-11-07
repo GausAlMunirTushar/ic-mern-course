@@ -18,97 +18,205 @@
 
 <body>
 
-    <!-- Navbar Section Start  -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand fs-2 fw-bolder" href="#">Shortly</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link" href="#">Resources</a>
-                </div>
-            </div>
-            <div>
-                <button class="btn">Login</button>
-                <button class="btn btn-primary rounded-lg">Sign up</button>
-            </div>
-        </div>
-    </nav>
-    <!-- Hero Section Start  -->
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <h1 class="fs-1">More than just shorter links</h1>
-                <p>Build your brand's recongnition and get detailed insights on how your link are performing.</p>
-                <button class="btn btn-primary">Get Started</button>
-            </div>
-            <div class="col-sm-6 hero-img">
-
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Boost Link Section Start -->
-    <div class="container-fluid boost-link">
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="">
-                <h2 class="text-white">Boost your link today</h2>
-                <button class="btn btn-primary mx-auto">Get Started</button>
-            </div>
-        </div>
-    </div>
-
-    <!-- Footer Section Start  -->
-    <div class="container-fluid footer">
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-sm-4">
-                    <h1>Shortly</h1>
-                </div>
-                <div class="col-sm-5 d-flex gap-5">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h4>Features</h4>
-                            <ul class="list-unstyled">
-                                <li><a class="text-decoration-none" href="">Link shortening</a></li>
-                                <li><a class="text-decoration-none" href="">Branded Links</a></li>
-                                <li><a class="text-decoration-none" href="">Analytics</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <h4>Resources</h4>
-                            <ul class="list-unstyled">
-                                <li><a class="text-decoration-none" href="">Blog</a></li>
-                                <li><a class="text-decoration-none" href="">Developers</a></li>
-                                <li><a class="text-decoration-none" href="">Support</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4">
-                            <h4>Company</h4>
-                            <ul class="list-unstyled">
-                                <li><a class="text-decoration-none text-white" href="">About</a></li>
-                                <li><a class="text-decoration-none" href="">Our Team</a></li>
-                                <li><a class="text-decoration-none" href="">Career</a></li>
-                                <li><a class="text-decoration-none" href="">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-3 footer-icons">
-                    <i class='bx bxl-facebook-square'></i>
-                    <i class='bx bxl-twitter' ></i>
-                    <i class='bx bxl-pinterest' ></i>
-                    <i class='bx bxl-instagram' ></i>
-                </div>
-            </div>
-        </div>
-    </div>
+    <header>
+		<div class="container-no-padding">
+			<nav class="desktop-navbar navbar">
+				<ul class="left">
+					<li class="nav-logo"><a href="#"><img src="./images/logo.svg" alt="Shortly"></a></li>
+					<li><a class="nav-link" href="#">Features</a></li>
+					<li><a class="nav-link" href="#">Pricing</a></li>
+					<li><a class="nav-link" href="#">Resources</a></li>
+				</ul>
+				<ul>
+					<li><a class="nav-link" href="#">Login</a></li>
+					<li><a class="btn btn-sm" href="#">Sign Up</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<div class="mobile-navbar">
+					<div class="navbar">
+						<ul class="left">
+							<li class="nav-logo"><a href="#"><img src="./images/logo.svg" alt="Shortly"></a></li>
+						</ul>
+						<div class="nav-hamburger">
+							<input id="mobile-menu-toggle" type="checkbox" aria-label="Mobile menu toggle" />
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+					</div>
+					<div id="mobile-menu-dropdown">
+						<ul>
+							<li><a class="nav-link" href="#">Features</a></li>
+							<li><a class="nav-link" href="#">Pricing</a></li>
+							<li><a class="nav-link" href="#">Resources</a></li>
+							<li><hr></li>
+							<li><a class="nav-link" href="#">Login</a></li>
+							<li><a class="btn" href="#">Sign Up</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<section>
+		<div class="jumbotron-bg">
+			<div class="container">
+				<div class="jumbotron grid">
+					<div class="jumbotron-content">
+						<div class="mb-30">
+							<h1 class="mb-5 mb-xl-0">
+								More than just<br class="br-lg">
+								shorter links
+							</h1>
+							<p>
+								Build your brand’s recognition and get detailed<br class="br-xl">
+								insights on how your links are performing.
+							</p>
+						</div>
+						<a class="btn" href="#">Get Started</a>
+					</div>
+					<div class="jumbotron-img">
+						<img src="./images/illustration-working.svg" alt="Women using a computer at a desk">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="light-blue-bg">
+			<div class="container">
+				<div class="shorten-bg">
+					<form id="shorten-form">
+						<div>
+							<input type="text" placeholder="Shorten a link here..." id="shorten-original-link" aria-label="Link to be shortened">
+						</div>
+						<button class="btn" type="submit">Shorten It!</button>
+					</form>
+				</div>
+				<div id="shorten-outputs">
+					<!-- <div class="shorten-output">
+						<p class="shorten-long-link">https://www.frontendmentor.io</p>
+						<div>
+							<p class="shorten-short-link">https://re.ink/k4lKyk</p>
+							<button class="btn" data-url="https://re.ink/k4lKyk" onclick="copyFunc(this)"></button>
+						</div>
+					</div>
+					<div class="shorten-output">
+						<p class="shorten-long-link">https://twitter.com/frontendmentor</p>
+						<div>
+							<p class="shorten-short-link">https://re.ink/gxOXp9</p>
+							<button class="btn shorten-copied" data-url="https://re.ink/gxOXp9" onclick="copyFunc(this)"></button>
+						</div>
+					</div>
+					<div class="shorten-output">
+						<p class="shorten-long-link">https://www.linkedin.com/company/frontend-mentor</p>
+						<div>
+							<p class="shorten-short-link">https://re.ink/gob3X9</p>
+							<button class="btn" data-url="https://re.ink/gob3X9" onclick="copyFunc(this)"></button>
+						</div>
+					</div> -->
+				</div>
+				<div class="center mt-60 mt-lg-100">
+					<h2>Advanced Statistics</h2>
+					<p>
+						Track how your links are performing across the web with<br class="br-lg">
+						our advanced statistics dashboard.
+					</p>
+				</div>
+				<div class="adv-stats-items">
+					<div class="adv-stats-item">
+						<div class="adv-stats-icon">
+							<img src="./images/icon-brand-recognition.svg" alt="Line and bar chart">
+						</div>
+						<h3>Brand Recognition</h3>
+						<p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links
+							help instil confidence in your content.</p>
+					</div>
+					<div class="adv-stats-item">
+						<div class="adv-stats-icon">
+							<img src="./images/icon-detailed-records.svg" alt="Compass">
+						</div>
+						<h3>Detailed Records</h3>
+						<p>Gain insights into who is clicking your links. Knowing when and where people engage with your
+							content helps inform better decisions.</p>
+					</div>
+					<div class="adv-stats-item">
+						<div class="adv-stats-icon">
+							<img src="./images/icon-fully-customizable.svg" alt="Artistic tools">
+						</div>
+						<h3>Fully Customizable</h3>
+						<p>Improve brand awareness and content discoverability through customizable links, supercharging
+							audience engagement.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="boost-bg">
+			<div class="container">
+				<div class="center">
+					<h2 class="mb-20">Boost your links today</h2>
+					<a class="btn" href="#">Get Started</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-div grid">
+				<h2>Shortly</h2>
+				<div>
+					<strong>Features</strong>
+					<ul class="footer-links">
+						<li><a href="#">Link Shortening</a></li>
+						<li><a href="#">Branded Links</a></li>
+						<li><a href="#">Analytics</a></li>
+					</ul>
+				</div>
+				<div>
+					<strong>Resources</strong>
+					<ul class="footer-links">
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Developers</a></li>
+						<li><a href="#">Support</a></li>
+					</ul>
+				</div>
+				<div>
+					<strong>Company</strong>
+					<ul class="footer-links">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Our Team</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</div>
+				<div class="footer-socials">
+					<a class="footer-social" href="https://www.facebook.com/shortly" rel="noopener noreferrer">
+						<img src="./images/icon-facebook.svg" alt="Facebook">
+						<img src="./images/icon-facebook-cyan.svg" alt="Facebook">
+					</a>
+					<a class="footer-social" href="https://www.twitter.com/shortly" rel="noopener noreferrer">
+						<img src="./images/icon-twitter.svg" alt="Twitter">
+						<img src="./images/icon-twitter-cyan.svg" alt="Twitter">
+					</a>
+					<a class="footer-social" href="http://www.pinterest.com/shortly" rel="noopener noreferrer">
+						<img src="./images/icon-pinterest.svg" alt="Pinterest">
+						<img src="./images/icon-pinterest-cyan.svg" alt="Pinterest">
+					</a>
+					<a class="footer-social" href="https://www.instagram.com/shortly" rel="noopener noreferrer">
+						<img src="./images/icon-instagram.svg" alt="Instagram">
+						<img src="./images/icon-instagram-cyan.svg" alt="Instagram">
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="attribution">
+			
+			Coded by <a href="https://gausalmunirtushar.xyz" rel="noopener noreferrer">Gaus Al Munir Tushar</a>.
+		</div>
+	</footer>
 
 
 
